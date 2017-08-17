@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <com.haski.swifto.components.calendar.CalendarView
+            android:id="@id/fragment_schedule_month_calendar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </com.haski.swifto.components.calendar.CalendarView>
+
+        <!-- <ListView -->
+        <!-- android:id="@id/fragment_schedule_month_list_walks" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="0dp" -->
+        <!-- /> -->
+
+        <com.haski.swifto.components.ListViewExt
+            android:id="@id/fragment_schedule_month_list_walks"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" />
+
+        <RelativeLayout
+            android:id="@id/fragment_schedule_month_layout_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@id/fragment_schedule_month_txt_empty"
+                style="@style/Text.Schedule.NoWalks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/fragment_schedule_month_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/fragment_schedule_month_img"
+                android:text="@string/fragment_schedule_month_txt_no_walks_month" />
+
+            <ImageView
+                android:id="@+id/fragment_schedule_month_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/Margins.Schedule.Today.Image"
+                android:layout_marginRight="@dimen/Margins.Schedule.Today.Image"
+                android:src="@drawable/img_no_walks_small" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/fragment_schedule_month_txt_select_day"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fragment_schedule_month_txt_select_day"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</ScrollView>

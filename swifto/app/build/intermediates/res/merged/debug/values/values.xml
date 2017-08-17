@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Find People</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+    </string-array>
+    <color name="Blue">#0000FF</color>
+    <color name="bt_walk_in_progress_bg">#e3f4fe</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_light_default">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="green">#8dc73f</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_walks_time">#777</color>
+    <color name="list_walks_time_started">#eee</color>
+    <color name="list_walks_txt_completed">#999</color>
+    <color name="popup_background">#77999999</color>
+    <color name="red">#f00</color>
+    <color name="walk_map_bg_top">#39C0F3</color>
+    <color name="white">#fff</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/><attr format="boolean" name="ambientEnabled"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SwipeyTabs"><attr format="color" name="bottomBarColor"/><attr format="dimension" name="bottomBarHeight"/><attr format="dimension" name="tabIndicatorHeight"/></declare-styleable>
+    <item format="dimension" name="DogFeature.PaddingImage" type="dimen">10dp</item>
+    <item format="dimension" name="DogInfo.ButtonHeight" type="dimen">50dp</item>
+    <item format="dimension" name="DogInfo.MarginLeft" type="dimen">10dp</item>
+    <item format="dimension" name="DogInfo.Margins.ImagesDog" type="dimen">10dp</item>
+    <item format="dimension" name="DogInfo.Margins.ImagesSens" type="dimen">10dp</item>
+    <item format="dimension" name="DogInfo.Margins.Vertical" type="dimen">10dp</item>
+    <item format="dimension" name="DogInfo.MarginsSideButton" type="dimen">20dp</item>
+    <item format="dimension" name="DogInfo.MarginsTopBottomButton" type="dimen">10dp</item>
+    <item format="dimension" name="DogInfo.Size.Button.Sens" type="dimen">20dp</item>
+    <item format="dimension" name="ExpandableGroup.MarginsSide" type="dimen">10dp</item>
+    <item format="dimension" name="Login.ButtonHeight" type="dimen">50dp</item>
+    <item format="dimension" name="Login.EditTextMarginsSide" type="dimen">30dp</item>
+    <item format="dimension" name="Login.EditTextWidth" type="dimen">150dp</item>
+    <item format="dimension" name="Login.MarginBottomFrameButton" type="dimen">50dp</item>
+    <item format="dimension" name="Login.MarginGroupFromTop" type="dimen">40dp</item>
+    <item format="dimension" name="Login.MarginUsernamePassword" type="dimen">10dp</item>
+    <item format="dimension" name="Margins.Schedule.Today.Image" type="dimen">5dp</item>
+    <item format="dimension" name="Popup.SendMessage.Button.Send.Height" type="dimen">50dp</item>
+    <item format="dimension" name="Popup.SendMessage.Input.Height" type="dimen">200dp</item>
+    <item format="dimension" name="Popup.SendMessage.Input.Side.Margins" type="dimen">10dp</item>
+    <item format="dimension" name="Popup.SendMessage.Margins.Check" type="dimen">10dp</item>
+    <item format="dimension" name="Popup.SendMessage.Margins.Vertical" type="dimen">10dp</item>
+    <item format="dimension" name="Popup.SendMessage.Side.Margins" type="dimen">20dp</item>
+    <item format="dimension" name="SwipeyTabs.PaddingsSide" type="dimen">5dip</item>
+    <item format="dimension" name="WalkEnd.HeightButtons" type="dimen">50dp</item>
+    <item format="dimension" name="WalkInfo.ButtonSize" type="dimen">40dp</item>
+    <item format="dimension" name="WalkInfo.ListPhotosDividerHeight" type="dimen">3dp</item>
+    <item format="dimension" name="WalkInfo.MarginButtons" type="dimen">3dp</item>
+    <item format="dimension" name="WalkInfo.MarginsSidesCompleted" type="dimen">5dp</item>
+    <item format="dimension" name="WalkInfo.MarginsSidesTexts" type="dimen">5dp</item>
+    <item format="dimension" name="WalkInfo.PaddingLayout" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.HeightButtonBottom" type="dimen">50dp</item>
+    <item format="dimension" name="WalkMap.MarginBottomButtonsStartStop" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.MarginSidesButtonBottom" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.MarginSidesButtonsStartStop" type="dimen">60dp</item>
+    <item format="dimension" name="WalkMap.MarginSidesCountdown" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.MarginsButtonGps" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.PaddingBottomButtonBottom" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.PaddingTopButtonsBottom" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.ProgressBar.Margins" type="dimen">5dp</item>
+    <item format="dimension" name="WalkMap.ProgressBar.Width" type="dimen">200dp</item>
+    <item format="dimension" name="WalkMap.SizeButtonGps" type="dimen">20dp</item>
+    <item format="dimension" name="WalkMap.WidthButtonBottom" type="dimen">50dp</item>
+    <item format="dimension" name="WindowTitle.Height" type="dimen">50dp</item>
+    <item format="dimension" name="WindowTitle.MarginsSides" type="dimen">5dp</item>
+    <item format="dimension" name="WindowTitle.MarginsTopBottom" type="dimen">3dp</item>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">40dp</dimen>
+    <item name="activity_dog_info_bt_go_to_map" type="id"/>
+    <item name="activity_dog_info_bt_start" type="id"/>
+    <item name="activity_dog_info_list_dogs" type="id"/>
+    <item name="activity_half_walk_dialog_bt" type="id"/>
+    <item name="activity_half_walk_dialog_text" type="id"/>
+    <item name="activity_half_walk_dialog_title" type="id"/>
+    <item name="activity_login_button_login" type="id"/>
+    <item name="activity_login_img_dog_bottom" type="id"/>
+    <item name="activity_login_img_dog_top_one" type="id"/>
+    <item name="activity_login_img_dog_top_two" type="id"/>
+    <item name="activity_login_input_password" type="id"/>
+    <item name="activity_login_input_username" type="id"/>
+    <item name="activity_login_root" type="id"/>
+    <item name="activity_login_text_password" type="id"/>
+    <item name="activity_login_text_username" type="id"/>
+    <item name="activity_owner_map_map_view" type="id"/>
+    <item name="activity_schedule_view_pager" type="id"/>
+    <item name="activity_splash_root" type="id"/>
+    <item name="activity_walk_end_bt_send_data" type="id"/>
+    <item name="activity_walk_end_bt_send_message" type="id"/>
+    <item name="activity_walk_end_bt_stop_walk" type="id"/>
+    <item name="activity_walk_end_bt_take_photo" type="id"/>
+    <item name="activity_walk_end_txt_all_data_sent" type="id"/>
+    <item name="activity_walk_end_txt_message_sent" type="id"/>
+    <item name="activity_walk_end_txt_photo_uploaded" type="id"/>
+    <item name="activity_walk_end_txt_send_data" type="id"/>
+    <item name="activity_walk_end_txt_send_message" type="id"/>
+    <item name="activity_walk_end_txt_take_photo" type="id"/>
+    <item name="activity_walk_end_txt_title" type="id"/>
+    <item name="activity_walk_map_bt_play" type="id"/>
+    <item name="activity_walk_map_bt_poo" type="id"/>
+    <item name="activity_walk_map_bt_start_walk" type="id"/>
+    <item name="activity_walk_map_bt_stop_walk" type="id"/>
+    <item name="activity_walk_map_bt_take_pic" type="id"/>
+    <item name="activity_walk_map_img_dog" type="id"/>
+    <item name="activity_walk_map_img_dog1" type="id"/>
+    <item name="activity_walk_map_img_gps" type="id"/>
+    <item name="activity_walk_map_layout_buttons" type="id"/>
+    <item name="activity_walk_map_layout_searching" type="id"/>
+    <item name="activity_walk_map_map_view" type="id"/>
+    <item name="activity_walk_map_progress_searching" type="id"/>
+    <item name="activity_walk_map_progress_upload_photo" type="id"/>
+    <item name="activity_walk_map_progress_walk" type="id"/>
+    <item name="activity_walk_map_txt_countdown" type="id"/>
+    <item name="activity_walk_map_txt_dog_names" type="id"/>
+    <item name="activity_walk_map_txt_gps" type="id"/>
+    <item name="activity_walk_map_txt_info" type="id"/>
+    <item name="activity_walk_map_txt_searching" type="id"/>
+    <item name="calendar_list_walks" type="id"/>
+    <item name="fragment_schedule_month_bt_refresh" type="id"/>
+    <item name="fragment_schedule_month_bt_send_log" type="id"/>
+    <item name="fragment_schedule_month_calendar" type="id"/>
+    <item name="fragment_schedule_month_layout" type="id"/>
+    <item name="fragment_schedule_month_layout_bottom" type="id"/>
+    <item name="fragment_schedule_month_layout_empty" type="id"/>
+    <item name="fragment_schedule_month_list_walks" type="id"/>
+    <item name="fragment_schedule_month_txt_empty" type="id"/>
+    <item name="fragment_schedule_month_txt_select_day" type="id"/>
+    <item name="fragment_schedule_today_bt_refresh" type="id"/>
+    <item name="fragment_schedule_today_bt_seng_log" type="id"/>
+    <item name="fragment_schedule_today_layout_bottom" type="id"/>
+    <item name="fragment_schedule_today_layout_no_walks" type="id"/>
+    <item name="fragment_schedule_today_layout_normal" type="id"/>
+    <item name="fragment_schedule_today_list" type="id"/>
+    <item name="fragment_schedule_tomorrow_bt_refresh" type="id"/>
+    <item name="fragment_schedule_tomorrow_bt_send_log" type="id"/>
+    <item name="fragment_schedule_tomorrow_layout_bottom" type="id"/>
+    <item name="fragment_schedule_tomorrow_layout_no_walks" type="id"/>
+    <item name="fragment_schedule_tomorrow_layout_normal" type="id"/>
+    <item name="fragment_schedule_tomorrow_list" type="id"/>
+    <item name="fragment_schedule_week_bt_refresh" type="id"/>
+    <item name="fragment_schedule_week_bt_send_log" type="id"/>
+    <item name="fragment_schedule_week_expandable_list" type="id"/>
+    <item name="fragment_schedule_week_layout" type="id"/>
+    <item name="fragment_schedule_week_layout_bottom" type="id"/>
+    <item name="fragment_schedule_week_layout_no_walks" type="id"/>
+    <item name="fragment_schedule_week_progress" type="id"/>
+    <item name="list_item_dog_feature_img" type="id"/>
+    <item name="list_item_dog_feature_text" type="id"/>
+    <item name="list_item_dog_info_img" type="id"/>
+    <item name="list_item_dog_info_img_sens_cold" type="id"/>
+    <item name="list_item_dog_info_img_sens_hot" type="id"/>
+    <item name="list_item_dog_info_img_sens_rain" type="id"/>
+    <item name="list_item_dog_info_layout_sens" type="id"/>
+    <item name="list_item_dog_info_list_features" type="id"/>
+    <item name="list_item_dog_info_txt_access" type="id"/>
+    <item name="list_item_dog_info_txt_access_info" type="id"/>
+    <item name="list_item_dog_info_txt_additional_info" type="id"/>
+    <item name="list_item_dog_info_txt_address" type="id"/>
+    <item name="list_item_dog_info_txt_commands" type="id"/>
+    <item name="list_item_dog_info_txt_commands_values" type="id"/>
+    <item name="list_item_dog_info_txt_description" type="id"/>
+    <item name="list_item_dog_info_txt_name" type="id"/>
+    <item name="list_item_dog_info_txt_sens" type="id"/>
+    <item name="list_item_expandable_group_txt_date" type="id"/>
+    <item name="list_item_expandable_group_txt_day_name" type="id"/>
+    <item name="list_item_image_img" type="id"/>
+    <item name="list_item_walk_info_bt_call" type="id"/>
+    <item name="list_item_walk_info_bt_map" type="id"/>
+    <item name="list_item_walk_info_bt_meet_and_greet" type="id"/>
+    <item name="list_item_walk_info_bt_sms" type="id"/>
+    <item name="list_item_walk_info_completed_txt_dog_names" type="id"/>
+    <item name="list_item_walk_info_completed_txt_duration_fee" type="id"/>
+    <item name="list_item_walk_info_completed_txt_time" type="id"/>
+    <item name="list_item_walk_info_layout_info" type="id"/>
+    <item name="list_item_walk_info_list_photos" type="id"/>
+    <item name="list_item_walk_info_txt_address_phone" type="id"/>
+    <item name="list_item_walk_info_txt_dog_names" type="id"/>
+    <item name="list_item_walk_info_txt_duration_fee" type="id"/>
+    <item name="list_item_walk_info_txt_time" type="id"/>
+    <item name="list_item_walks_one_day_list_walks" type="id"/>
+    <item name="list_item_walks_one_day_txt_date" type="id"/>
+    <item name="list_item_walks_one_day_txt_day_of_week" type="id"/>
+    <item name="popup_send_message_bt_send" type="id"/>
+    <item name="popup_send_message_img_check" type="id"/>
+    <item name="popup_send_message_input_message" type="id"/>
+    <item name="popup_send_message_layout" type="id"/>
+    <item name="popup_send_message_txt_info" type="id"/>
+    <item name="popup_take_picture_bt_take_picture" type="id"/>
+    <item name="popup_take_picture_layout" type="id"/>
+    <item name="popup_take_picture_txt_info" type="id"/>
+    <item name="popup_take_picture_txt_top" type="id"/>
+    <item name="selected_view" type="id"/>
+    <item name="window_title_bt_left" type="id"/>
+    <item name="window_title_bt_right" type="id"/>
+    <item name="window_title_txt_title" type="id"/>
+    <item format="integer" name="ActivityTransitions.Duration" type="integer">256</item>
+    <integer name="google_play_services_version">8298000</integer>
+    <integer name="num_cols">1</integer>
+    <string name="acra_dialog_comment_prompt">What have you just do? Please describe</string>
+    <string name="acra_dialog_ok_toast">Thanks</string>
+    <string name="acra_dialog_text">Some error caused crash of the application. Please help us fix this by sending us error data</string>
+    <string name="acra_dialog_title">Swifto App crashed :(</string>
+    <string name="acra_toast_text">Swifto has crashed, but report is about to be sent to developer!</string>
+    <string name="activity_dog_info_bt_start_walk">START WALK</string>
+    <string name="activity_dog_info_bt_walk_in_progress">Walk in progress</string>
+    <string name="activity_walk_end_bt_end_walk">End walk</string>
+    <string name="activity_walk_end_bt_send_data">Send data</string>
+    <string name="activity_walk_end_bt_send_message">Send message</string>
+    <string name="activity_walk_end_bt_take_photo">Take photo</string>
+    <string name="activity_walk_end_txt_all_data_sent">All walk\'s data sent to server.</string>
+    <string name="activity_walk_end_txt_message_sent">Message to owner sent.</string>
+    <string name="activity_walk_end_txt_photo_uploaded">Photo has been uploaded.</string>
+    <string name="activity_walk_end_txt_send_data">You have unsent walk data (route points, meet and poop info). Please, send them to server</string>
+    <string name="activity_walk_end_txt_send_message">Send message to owner of dog(s)</string>
+    <string name="activity_walk_end_txt_take_photo">Take photo of dog(s)</string>
+    <string name="activity_walk_end_txt_title">Walk is about to be finished. Please, do all needed tasks described below:</string>
+    <string name="activity_walk_map_bt_end_meet_greet">END MEET &amp; GREET</string>
+    <string name="activity_walk_map_bt_start_walk">START WALK</string>
+    <string name="activity_walk_map_bt_stop_walk">END WALK</string>
+    <string name="activity_walk_map_gps">GPS:</string>
+    <string name="activity_walk_map_min_walk">%1$d minute walk</string>
+    <string name="activity_walk_map_min_walked">%1$d mins walked</string>
+    <string name="activity_walk_map_searching">Searching GPS location</string>
+    <string name="activity_walk_map_take_picture">PICTURE</string>
+    <string name="activity_walk_map_take_video">VIDEO</string>
+    <string name="activity_walk_map_text_client">Text</string>
+    <string name="add_new_comment"><u>Add new comment</u></string>
+    <string name="app_code">15</string>
+    <string name="app_name">Swifto</string>
+    <string name="app_ver">1.120.0</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="comments">Comments</string>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="dialog_loading_walks">Loading walks…</string>
+    <string name="dialog_loading_walks_this_week">Loading walks for this week…</string>
+    <string name="dialog_loading_walks_today">Loading walks for today…</string>
+    <string name="dialog_loading_walks_tomorrow">Loading walks for tomorrow…</string>
+    <string name="dialog_login">Login…</string>
+    <string name="dialog_no_inet">No internet connection</string>
+    <string name="dialog_timeout">No response from server for a long time</string>
+    <string name="fragment_schedule_month_txt_no_walks_day">No walks scheduled for selected day.</string>
+    <string name="fragment_schedule_month_txt_no_walks_month">No walks scheduled for selected month.</string>
+    <string name="fragment_schedule_month_txt_select_day">Select a day</string>
+    <string name="fragment_schedule_today_txt_no_walks">No walks scheduled for today.</string>
+    <string name="fragment_schedule_tomorrow_txt_no_walks">No walks scheduled for tomorrow.</string>
+    <string name="fragment_schedule_week_txt_no_walks">No walks scheduled for this week.</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="google_map_api_key">AIzaSyCu9bd9M7krCgS-PvEl0GHeQXoD6meeedA</string>
+    <string name="hr_email">hr@swifto.com</string>
+    <string name="hr_phno">(917) 740-9341</string>
+    <string name="list_item_dog_info_commands">Commands:</string>
+    <string name="list_item_walk_info_duration">%1$d Min (%2$s)</string>
+    <string name="list_item_walk_info_striked">&lt;s>%1$s&lt;/s></string>
+    <string name="login_bt_login">Login</string>
+    <string name="login_password">Password</string>
+    <string name="login_username">Username or E-mail</string>
+    <string name="logout_bt_logout">LogOut</string>
+    <string name="popup_send_message_bt_send">SEND</string>
+    <string name="popup_send_message_hint">Please write a descriptive message and a minimum of at least two sentences - challenge yourself and see how creative you can get!
+    \n\n\n \n \n\n</string>
+    <string name="popup_send_message_hint_old">Enter a note to send to the owner</string>
+    <string name="popup_send_message_walk_complete">WALK COMPLETE</string>
+    <string name="popup_take_picture_bt_take_picture">TAKE A PICTURE</string>
+    <string name="popup_take_picture_info">Hi %1$s,\nyou didn\'t take a picture of %2$s during the walk, please take one now.</string>
+    <string name="popup_take_picture_picture">PICTURE</string>
+    <string name="refresh">Refresh</string>
+    <string name="reload">Reload</string>
+    <string name="scheduling_email">scheduling@swifto.com</string>
+    <string name="scheduling_phno">(347)-709-9839</string>
+    <string name="send_log">Send Log</string>
+    <string name="send_log_hint">The app behaved in an unexpected way? Let us know what happended and we\'ll take care of the issue.</string>
+    <string name="send_log_title">Report an issue</string>
+    <string name="window_title_bt_dog_info">Dog Info</string>
+    <string name="window_title_bt_map">Walk Map</string>
+    <string name="window_title_bt_schedule">Schedule</string>
+    <string name="window_title_dog_info">Dog\'s info</string>
+    <string name="window_title_owner_map">Owners location</string>
+    <style name="Animations"/>
+    <style name="Animations.PopDownMenu"/>
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.PopUpMenu"/>
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="Button.ListItemWalkInfo" parent="@android:style/Widget.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#999</item>
+    </style>
+    <style name="Button.Login" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/activity_login_bt_login</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="CustomTheme.SherlockStyled" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+    <style name="CustomTitleTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">@dimen/WindowTitle.Height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBg</item>
+    </style>
+    <style name="CustomTitleTheme.Sherlock" parent="@android:style/Theme.Light">
+        <item name="android:windowTitleSize">@dimen/WindowTitle.Height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBg</item>
+    </style>
+    <style name="EditText.Login" parent="@android:style/TextAppearance.Widget.EditText"/>
+    <style name="Swifto.Button" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:textColor">@color/button_text</item>
+    </style>
+    <style name="Swifto.Button.Text" parent="@style/Swifto.Button">
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowColor">#555</item>
+    </style>
+    <style name="Swifto.Text" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowColor">#555</item>
+    </style>
+    <style name="Text.Blue" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#014F85</item>
+    </style>
+    <style name="Text.ListItemDogFeature" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemDogInfo.Access" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="Text.ListItemDogInfo.Address" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="Text.ListItemDogInfo.Commands" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="Text.ListItemDogInfo.CommandsValues" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="Text.ListItemDogInfo.Description" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemDogInfo.Name" parent="@style/Text.Blue">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemDogInfo.Sensitives" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemExpandableGroup" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="Text.ListItemWalkInfo.AddressPhone" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#999</item>
+    </style>
+    <style name="Text.ListItemWalkInfo.DogNames" parent="@style/Text.Blue">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemWalkInfo.DurationFee" parent="@style/Text.Blue">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemWalkInfo.Time" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#777</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.ListItemWalksOneDay" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="Text.Schedule.NoWalks" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#777</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.Login" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="Theme.Swifto.App.NoTitleBar" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:buttonStyle">@style/Swifto.Button</item>
+    </style>
+    <style name="Theme.Swifto.App.NoTitleBar.FullScreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:buttonStyle">@style/Swifto.Button</item>
+    </style>
+    <style name="Theme.Swifto.App.NoTitleBar.Sherlock" parent="@android:style/Theme.Light">
+        <item name="android:buttonStyle">@style/Swifto.Button</item>
+    </style>
+    <style name="WalkMap.Text.Durations" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalkMap.Text.Names" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Widget.Styled.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/walk_map_bg_top</item>
+    </style>
+    <style name="WindowTitleBg">
+        <item name="android:background">#39C0F3</item>
+        
+    </style>
+    <style name="base_item_container" parent="wide">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+    </style>
+    <style name="calendar" parent="wide">
+        <item name="android:numColumns">7</item>
+        <item name="android:verticalSpacing">2dip</item>
+        <item name="android:horizontalSpacing">2dip</item>
+        <item name="android:listSelector">#00FFFFFF</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:background">#ffffffff</item>
+        <item name="android:padding">1dip</item>
+    </style>
+    <style name="calendar_base" parent="fill">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style>
+    <style name="calendar_header" parent="wide">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="count_circule" parent="wrap">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/calendar_circle_blue</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="count_view" parent="wrap">
+        <item name="android:text">1</item>
+        <item name="android:layout_marginTop">2dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">10dip</item>
+    </style>
+    <style name="date_view" parent="wrap">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">1</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">2dip</item>
+    </style>
+    <style name="day_pannel" parent="wide">
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">5dip</item>
+    </style>
+    <style name="day_view" parent="fill">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="left_arrow" parent="wrap">
+        <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:src">@drawable/left_arrow</item>
+    </style>
+    <style name="left_arrow_pannel" parent="wide">
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="right_arrow" parent="wrap">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:src">@drawable/right_arrow</item>
+    </style>
+    <style name="right_arrow_pannel" parent="wide">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="title" parent="wrap">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_toRightOf">@+id/previous</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">#ff006f9d</item>
+        <item name="android:textSize">20dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Novemer 2012</item>
+    </style>
+    <style name="wide">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

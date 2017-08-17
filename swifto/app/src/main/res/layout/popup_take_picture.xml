@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/popup_take_picture_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/popup_background" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/Popup.SendMessage.Side.Margins"
+        android:layout_marginRight="@dimen/Popup.SendMessage.Side.Margins"
+        android:background="@drawable/shape_popup_send_message" >
+
+        <TextView
+            android:id="@id/popup_take_picture_txt_top"
+            style="@style/Swifto.Text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="@dimen/Popup.SendMessage.Input.Side.Margins"
+            android:background="@drawable/shape_send_message_top"
+            android:gravity="left"
+            android:text="@string/popup_take_picture_picture" />
+
+        <TextView
+            android:id="@id/popup_take_picture_txt_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_take_picture_txt_top"
+            android:layout_marginBottom="@dimen/Popup.SendMessage.Margins.Vertical"
+            android:layout_marginLeft="@dimen/Popup.SendMessage.Input.Side.Margins"
+            android:layout_marginRight="@dimen/Popup.SendMessage.Input.Side.Margins"
+            android:layout_marginTop="@dimen/Popup.SendMessage.Margins.Vertical"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@id/popup_take_picture_bt_take_picture"
+            style="@style/Swifto.Button.Text"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/Popup.SendMessage.Button.Send.Height"
+            android:layout_below="@id/popup_take_picture_txt_info"
+            android:layout_marginLeft="@dimen/Popup.SendMessage.Input.Side.Margins"
+            android:layout_marginRight="@dimen/Popup.SendMessage.Input.Side.Margins"
+            android:background="@drawable/bt_picture_green"
+            android:gravity="center"
+            android:text="@string/popup_take_picture_bt_take_picture" />
+    </RelativeLayout>
+
+</RelativeLayout>

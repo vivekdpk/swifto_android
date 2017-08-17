@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   android:background="@drawable/list_item_bg"
+    android:padding="@dimen/WalkInfo.PaddingLayout" >
+
+    <!-- time     -->
+
+    <TextView
+        android:id="@+id/list_item_walk_info_txt_time"
+        style="@style/Text.ListItemWalkInfo.Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/list_item_walk_info_list_photos"
+        android:layout_alignRight="@id/list_item_walk_info_list_photos"
+        android:gravity="center_horizontal"
+        android:textColor="@color/list_walks_time"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/WalkInfo.MarginsSidesTexts"
+        android:layout_marginRight="@dimen/WalkInfo.MarginsSidesTexts"
+        android:layout_below="@id/list_item_walk_info_completed_txt_duration_fee"
+        android:layout_toLeftOf="@id/list_item_walk_info_bt_call"
+        android:layout_toRightOf="@id/list_item_walk_info_list_photos"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <!-- dog names -->
+
+        <TextView
+            android:id="@id/list_item_walk_info_txt_dog_names"
+            style="@style/Text.ListItemWalkInfo.DogNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- duration and fee -->
+
+        <TextView
+            android:id="@id/list_item_walk_info_txt_duration_fee"
+            style="@style/Text.ListItemWalkInfo.DurationFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- button meet and greet -->
+
+        <TextView
+            android:id="@id/list_item_walk_info_bt_meet_and_greet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_walk_info_bg_button_meet_greet" />
+
+        <!-- address and phone -->
+
+        <TextView
+            android:id="@id/list_item_walk_info_txt_address_phone"
+            style="@style/Text.ListItemWalkInfo.AddressPhone"
+            android:text="Demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.haski.swifto.components.ListViewExt
+        android:id="@id/list_item_walk_info_list_photos"
+        android:layout_width="100dp"
+        android:layout_height="1000dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/list_item_walk_info_txt_time"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/WalkInfo.ListPhotosDividerHeight"
+        android:focusable="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </com.haski.swifto.components.ListViewExt>
+
+    <!-- call button -->
+
+    <Button
+        android:id="@id/list_item_walk_info_bt_call"
+        android:layout_width="@dimen/WalkInfo.ButtonSize"
+        android:layout_height="@dimen/WalkInfo.ButtonSize"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/list_item_walk_info_bg_button_phone" />
+
+    <!-- button sms -->
+
+    <Button
+        android:id="@id/list_item_walk_info_bt_sms"
+        android:layout_width="@dimen/WalkInfo.ButtonSize"
+        android:layout_height="@dimen/WalkInfo.ButtonSize"
+        android:layout_alignRight="@id/list_item_walk_info_bt_call"
+        android:layout_below="@id/list_item_walk_info_bt_call"
+        android:layout_marginBottom="@dimen/WalkInfo.MarginButtons"
+        android:layout_marginTop="@dimen/WalkInfo.MarginButtons"
+        android:background="@drawable/list_item_walk_info_bg_button_sms" />
+
+    <!-- button map -->
+
+    <Button
+        android:id="@+id/list_item_walk_info_bt_map"
+        android:layout_width="@dimen/WalkInfo.ButtonSize"
+        android:layout_height="@dimen/WalkInfo.ButtonSize"
+        android:layout_alignRight="@id/list_item_walk_info_bt_call"
+        android:layout_below="@id/list_item_walk_info_bt_sms"
+        android:layout_marginBottom="@dimen/WalkInfo.MarginButtons"
+        android:layout_marginTop="@dimen/WalkInfo.MarginButtons"
+        android:background="@drawable/list_item_walk_info_bg_button_map" />
+
+    <!-- button drop off -->
+
+
+    <Button
+        android:id="@+id/list_item_walk_info_bt_dropoff"
+        android:layout_width="@dimen/WalkInfo.ButtonSize"
+        android:layout_height="@dimen/WalkInfo.ButtonSize"
+        android:layout_alignRight="@id/list_item_walk_info_bt_call"
+        android:layout_below="@id/list_item_walk_info_bt_map"
+        android:visibility="invisible"
+        android:background="@drawable/drop_off" />
+
+    <TextView
+        android:id="@id/list_item_walk_info_completed_txt_time"
+        style="@style/Text.ListItemWalkInfo.Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/list_walks_time" />
+
+    <TextView
+        android:id="@id/list_item_walk_info_completed_txt_dog_names"
+        style="@style/Text.ListItemWalkInfo.DogNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/WalkInfo.MarginsSidesCompleted"
+        android:layout_toRightOf="@id/list_item_walk_info_completed_txt_time"
+        android:textColor="@color/list_walks_txt_completed" />
+
+    <TextView
+        android:id="@id/list_item_walk_info_completed_txt_duration_fee"
+        style="@style/Text.ListItemWalkInfo.DurationFee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/list_item_walk_info_completed_txt_dog_names"
+        android:layout_below="@id/list_item_walk_info_completed_txt_dog_names"
+        android:textColor="@color/list_walks_txt_completed" />
+
+</RelativeLayout>

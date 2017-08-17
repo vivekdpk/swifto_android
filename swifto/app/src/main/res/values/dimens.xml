@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- common -->
+    <item name="ActivityTransitions.Duration" format="integer" type="integer">256</item>
+    
+    <!-- window title -->
+    <item name="WindowTitle.MarginsTopBottom" format="dimension" type="dimen">3dp</item>
+    <item name="WindowTitle.MarginsSides" format="dimension" type="dimen">5dp</item>
+    <item name="WindowTitle.Height" format="dimension" type="dimen">50dp</item>
+    
+    
+
+    <!-- activity_login -->
+    <item name="Login.EditTextWidth" format="dimension" type="dimen">150dp</item>
+    <item name="Login.EditTextMarginsSide" format="dimension" type="dimen">30dp</item>
+    <item name="Login.MarginGroupFromTop" format="dimension" type="dimen">40dp</item>
+    <item name="Login.MarginUsernamePassword" format="dimension" type="dimen">10dp</item>
+    <item name="Login.MarginBottomFrameButton" format="dimension" type="dimen">50dp</item>
+    <item name="Login.ButtonHeight" format="dimension" type="dimen">50dp</item>
+    
+    <!-- activity_dog_info -->
+    <item name="DogInfo.MarginsSideButton" format="dimension" type="dimen">20dp</item>
+    <item name="DogInfo.MarginsTopBottomButton" format="dimension" type="dimen">10dp</item>
+    <item name="DogInfo.ButtonHeight" format="dimension" type="dimen">50dp</item>
+
+    <!-- activity_walk_map -->
+    <item name="WalkMap.PaddingTopButtonsBottom" format="dimension" type="dimen">5dp</item>
+    <item name="WalkMap.PaddingBottomButtonBottom" format="dimension" type="dimen">5dp</item>
+    <item name="WalkMap.MarginSidesButtonBottom" format="dimension" type="dimen">5dp</item>
+    <item name="WalkMap.MarginSidesButtonsStartStop" format="dimension" type="dimen">60dp</item>
+    <item name="WalkMap.MarginBottomButtonsStartStop" format="dimension" type="dimen">5dp</item>
+    <item name="WalkMap.WidthButtonBottom" format="dimension" type="dimen">50dp</item>
+    <item name="WalkMap.HeightButtonBottom" format="dimension" type="dimen">50dp</item>
+    <item name="WalkMap.SizeButtonGps" format="dimension" type="dimen">20dp</item>
+    <item name="WalkMap.MarginsButtonGps" format="dimension" type="dimen">5dp</item>
+    <item name="WalkMap.MarginSidesCountdown" format="dimension" type="dimen">5dp</item>
+    <item name="WalkMap.ProgressBar.Width" format="dimension" type="dimen">200dp</item>
+    <item name="WalkMap.ProgressBar.Margins" format="dimension" type="dimen">5dp</item>
+    
+    <!-- activity_walk_end -->
+    <item name="WalkEnd.HeightButtons" format="dimension" type="dimen">50dp</item>
+    
+    <!-- fragment_schedule_today -->
+    <item name="Margins.Schedule.Today.Image" format="dimension" type="dimen">5dp</item>
+    
+
+    <!-- list_item_walk_info -->
+    <item name="WalkInfo.PaddingLayout" format="dimension" type="dimen">5dp</item>
+    <item name="WalkInfo.ButtonSize" format="dimension" type="dimen">40dp</item>
+    <item name="WalkInfo.ListPhotosDividerHeight" format="dimension" type="dimen">3dp</item>
+    <item name="WalkInfo.MarginButtons" format="dimension" type="dimen">3dp</item>
+    <item name="WalkInfo.MarginsSidesCompleted" format="dimension" type="dimen">5dp</item>
+    <item name="WalkInfo.MarginsSidesTexts" format="dimension" type="dimen">5dp</item>
+
+    <!-- list_item_expandable_group -->
+    <item name="ExpandableGroup.MarginsSide" format="dimension" type="dimen">10dp</item>
+
+    <!-- swipey_tabs -->
+    <item name="SwipeyTabs.PaddingsSide" format="dimension" type="dimen">5dip</item>
+
+    <!-- list_item_dog_info -->
+    <item name="DogInfo.MarginLeft" format="dimension" type="dimen">10dp</item>
+    <item name="DogInfo.Margins.ImagesSens" format="dimension" type="dimen">10dp</item>
+    <item name="DogInfo.Margins.ImagesDog" format="dimension" type="dimen">10dp</item>
+    <item name="DogInfo.Margins.Vertical" format="dimension" type="dimen">10dp</item>
+    <item name="DogInfo.Size.Button.Sens" format="dimension" type="dimen">20dp</item>
+    
+
+    <!-- list_item_dog_info -->
+    <item name="DogFeature.PaddingImage" format="dimension" type="dimen">10dp</item>
+    
+    
+    
+    <!-- popup_send_message -->
+    <item name="Popup.SendMessage.Input.Height" format="dimension" type="dimen">200dp</item>
+    <item name="Popup.SendMessage.Margins.Check" format="dimension" type="dimen">10dp</item>
+    <item name="Popup.SendMessage.Margins.Vertical" format="dimension" type="dimen">10dp</item>
+    <item name="Popup.SendMessage.Side.Margins" format="dimension" type="dimen">20dp</item>
+    <item name="Popup.SendMessage.Input.Side.Margins" format="dimension" type="dimen">10dp</item>
+    <item name="Popup.SendMessage.Button.Send.Height" format="dimension" type="dimen">50dp</item>
+    
+    <dimen name="slidingmenu_offset">40dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+    
+</resources>

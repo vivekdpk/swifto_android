@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/DogInfo.MarginLeft" >
+
+    <RelativeLayout
+        android:id="@+id/list_item_dog_info_layout_name_descr_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@id/list_item_dog_info_txt_name"
+            style="@style/Text.ListItemDogInfo.Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/list_item_dog_info_img" />
+
+        <TextView
+            android:id="@id/list_item_dog_info_txt_description"
+            style="@style/Text.ListItemDogInfo.Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/list_item_dog_info_txt_name"
+            android:layout_below="@id/list_item_dog_info_txt_name"
+            android:layout_toLeftOf="@id/list_item_dog_info_img" />
+
+        <ImageView
+            android:id="@id/list_item_dog_info_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/DogInfo.Margins.ImagesDog"
+            android:layout_marginTop="@dimen/DogInfo.Margins.ImagesDog" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/list_item_dog_info_txt_address"
+        style="@style/Text.ListItemDogInfo.Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_dog_info_layout_name_descr_photo" />
+
+    <TextView
+        android:id="@id/list_item_dog_info_txt_access"
+        style="@style/Text.ListItemDogInfo.Access"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_dog_info_txt_address" />
+
+    <TextView
+        android:id="@id/list_item_dog_info_txt_access_info"
+        style="@style/Text.ListItemDogInfo.Access"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_dog_info_txt_access" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_dog_info_txt_access"
+        android:orientation="vertical" >
+
+        <com.haski.swifto.components.ListViewExt
+            android:id="@id/list_item_dog_info_list_features"
+            android:layout_width="fill_parent"
+            android:layout_height="1000dp"
+            android:layout_marginTop="@dimen/DogInfo.Margins.Vertical"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:scrollbars="none" >
+        </com.haski.swifto.components.ListViewExt>
+
+        <LinearLayout
+            android:id="@id/list_item_dog_info_layout_sens"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/DogInfo.Margins.Vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/list_item_dog_info_txt_sens"
+                style="@style/Text.ListItemDogInfo.Sensitives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@id/list_item_dog_info_img_sens_cold"
+                android:layout_width="@dimen/DogInfo.Size.Button.Sens"
+                android:layout_height="@dimen/DogInfo.Size.Button.Sens"
+                android:visibility="gone"
+                android:src="@drawable/cold" />
+
+            <ImageView
+                android:id="@id/list_item_dog_info_img_sens_hot"
+                android:layout_width="@dimen/DogInfo.Size.Button.Sens"
+                android:layout_height="@dimen/DogInfo.Size.Button.Sens"
+                android:layout_marginLeft="@dimen/DogInfo.Margins.ImagesSens"
+                 android:visibility="gone"
+                android:layout_marginRight="@dimen/DogInfo.Margins.ImagesSens"
+                android:src="@drawable/hot" />
+
+            <ImageView
+                android:id="@id/list_item_dog_info_img_sens_rain"
+                android:layout_width="@dimen/DogInfo.Size.Button.Sens"
+                android:layout_height="@dimen/DogInfo.Size.Button.Sens"
+                 android:visibility="gone"
+                android:src="@drawable/rain" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/list_item_dog_info_txt_commands"
+            style="@style/Text.ListItemDogInfo.Commands"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DogInfo.Margins.Vertical"
+            android:text="@string/list_item_dog_info_commands" />
+
+        <TextView
+            android:id="@id/list_item_dog_info_txt_commands_values"
+            style="@style/Text.ListItemDogInfo.CommandsValues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/list_item_dog_info_txt_additional_info"
+            style="@style/Text.ListItemDogInfo.Access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

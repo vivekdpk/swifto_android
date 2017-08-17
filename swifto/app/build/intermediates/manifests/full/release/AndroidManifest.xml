@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haski.swifto"
+    android:installLocation="preferExternal"
+    android:versionCode="15"
+    android:versionName="@string/app_ver" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="com.haski.swifto.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.haski.swifto.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <action android:name="android.location.PROVIDERS_CHANGED" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.haski.swifto.SwiftoApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomTitleTheme" >
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+
+        <!-- <service android:name=".service.WalkGPSLocationService" /> -->
+        <service
+            android:name="com.haski.swifto.requestQueue.SwiftoTaskService"
+            android:exported="false" >
+        </service>
+
+        <!--
+        <intent-filter>
+            <action android:name="android.intent.action.MEDIA_MOUNTED" />
+            <data android:scheme="file" />
+        </intent-filter>
+        -->
+
+        <service
+            android:name="com.haski.swifto.util.photoUploadService.UploadPhotoService"
+            android:exported="false" >
+        </service>
+        <service android:name="com.haski.swifto.service.GPSLocationIntentService" >
+        </service>
+
+        <receiver android:name="com.haski.swifto.service.GPSAlarmBroadcastReceiver" >
+        </receiver>
+        <receiver android:name="com.haski.swifto.service.GpsLocationReceiver" >
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.haski.swifto.service.ShutdownReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.QUICKBOOT_POWEROFF" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.haski.swifto.service.RestartReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <receiver android:name=".service.GPSLocationUpdateReceiver"></receiver> -->
+        <!-- <receiver android:name="SwiftoApplication$GPSNotifiableReceiver"></receiver> -->
+        <service android:name="com.haski.swifto.service.WalkCompleteIntentService" >
+        </service>
+        <service android:name="com.haski.swifto.service.WalkMustBeStoppedIntentService" >
+        </service>
+
+        <receiver android:name="com.haski.swifto.service.WalkCompleteBroadcastReceiver" >
+        </receiver>
+        <receiver android:name="com.haski.swifto.service.WalkMustBeStoppedBroadcastReceiver" >
+        </receiver>
+
+        <service android:name="com.haski.swifto.service.HalfWalkIntentService" >
+        </service>
+        <service android:name="com.haski.swifto.service.AfterWalkIntentService" >
+        </service>
+
+        <receiver android:name="com.haski.swifto.service.HalfWalkBroadcastReceiver" >
+        </receiver>
+        <receiver android:name="com.haski.swifto.service.AfterWalkBroadcastReceiver" >
+        </receiver>
+
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.HalfWalkDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.AfterWalkDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swifto.App.NoTitleBar.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Swifto.App.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.ScheduleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.WebViewActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.ShareActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.ContactActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.DogInfoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.WalkMapActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.WalkEndActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+        <activity
+            android:name="com.haski.swifto.ui.OwnerMapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTheme.SherlockStyled" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_map_api_key" />
+    </application>
+
+</manifest>

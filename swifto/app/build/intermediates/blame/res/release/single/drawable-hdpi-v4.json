@@ -1,0 +1,414 @@
+[
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pin_poo.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\pin_poo.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\transparent_overlay.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\transparent_overlay.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\green_check.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\green_check.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dog_default_big.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\dog_default_big.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\activity_login_bt_login.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\activity_login_bt_login.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\circle_blue.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\circle_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\send_log.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\send_log.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_sms.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_sms.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\color_overlay.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\color_overlay.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_start_walk.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_start_walk.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cold.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\cold.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\red_cross_small.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\red_cross_small.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\img_no_walks.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\img_no_walks.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\left_arrow.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\left_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cell_bg_selected.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\cell_bg_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\green_check_small.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\green_check_small.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_picture_green.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_picture_green.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\drop_off.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\drop_off.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_take_pic_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_take_pic_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_meet_greet.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_meet_greet.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\activity_login_dog_top_two.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\activity_login_dog_top_two.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_green.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_green.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cell_bg.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\cell_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\list_item_bg.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\item_background.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\item_background.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\gps_on.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\gps_on.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\exclamation_mark_small.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\exclamation_mark_small.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\red_cross.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\red_cross.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_poo.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_poo.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\item_background_focused.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\item_background_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_map.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_map.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_call.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_call.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\activity_login_bg.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\activity_login_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\splash.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dog_default.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\dog_default.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cell_bg_today.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\cell_bg_today.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\check_mark.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\check_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_nav_left.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_nav_left.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_blue_disable.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_blue_disable.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\rain.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\rain.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_take_pic.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_take_pic.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pin_owner_small.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\pin_owner_small.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\calendar_circle_white.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\calendar_circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_nav_right.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_nav_right.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pin_meet.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\pin_meet.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\feature_yes.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\feature_yes.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\activity_login_dog_top_one.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\activity_login_dog_top_one.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\exclamation_mark_small_2.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\exclamation_mark_small_2.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_action_reload_black.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_reload_black.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\header_background.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\header_background.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_start.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_start.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\calendar_circle_blue.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\calendar_circle_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\top_bar_blue.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\top_bar_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\feature_no.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\feature_no.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_play.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_play.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\activity_login_dog_bottom.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\activity_login_dog_bottom.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pending_walks.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\pending_walks.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\right_arrow.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\right_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_action_actions.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\ic_action_actions.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dog_out.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\dog_out.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\top_bar_green.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\top_bar_green.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\hot.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\hot.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\dog_icon.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\dog_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\img_no_walks_small.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\img_no_walks_small.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\gps_off.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\gps_off.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\bt_blue.9.png",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\drawable-hdpi\\bt_blue.9.png"
+    }
+]

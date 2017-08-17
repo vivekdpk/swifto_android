@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <ListView
+        android:id="@id/fragment_schedule_today_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@id/fragment_schedule_today_layout_no_walks"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+         >
+
+        <TextView
+            style="@style/Text.Schedule.NoWalks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/fragment_schedule_today_txt_no_walks" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/Margins.Schedule.Today.Image"
+            android:layout_marginRight="@dimen/Margins.Schedule.Today.Image"
+            android:src="@drawable/img_no_walks" />
+    </RelativeLayout>
+
+<!--     <RelativeLayout -->
+<!--         android:id="@id/fragment_schedule_today_layout_bottom" -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:background="@drawable/top_bar_blue" > -->
+
+<!--         <Button -->
+<!--             android:id="@id/fragment_schedule_today_bt_refresh" -->
+<!--             style="@style/Swifto.Button" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentLeft="true" -->
+<!--             android:layout_gravity="left" -->
+<!--             android:layout_marginBottom="3dp" -->
+<!--             android:layout_marginTop="3dp" -->
+<!--             android:layout_marginLeft="3dp" -->
+<!--             android:background="@drawable/bt_blue" -->
+<!--             android:gravity="center" -->
+<!--             android:text="@string/reload" > -->
+<!--         </Button> -->
+
+<!--         <Button -->
+<!--             android:id="@id/fragment_schedule_today_bt_seng_log" -->
+<!--             style="@style/Swifto.Button" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_gravity="right" -->
+<!--             android:layout_marginBottom="3dp" -->
+<!--             android:layout_marginTop="3dp" -->
+<!--             android:layout_marginRight="3dp" -->
+<!--             android:background="@drawable/bt_blue" -->
+<!--             android:gravity="center" -->
+<!--             android:text="@string/send_log" /> -->
+<!--     </RelativeLayout> -->
+
+</RelativeLayout>

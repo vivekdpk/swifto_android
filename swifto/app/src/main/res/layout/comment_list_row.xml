@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/author_picture"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:src="@drawable/dummy_image" />
+
+        <TextView
+            android:id="@+id/comment_title"
+            style="@style/Text.ListItemDogInfo.Commands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/author_picture"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Comment Title" />
+
+        <TextView
+            android:id="@+id/comment_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/comment_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/author_picture"
+            android:padding="5dp"
+            android:background="#add8e6"
+            android:text="I love Test Dog. He never complains. I once had him eat a test snack and he loved it! However, don't give him test burritos. Its not good for him."
+            android:textAlignment="inherit" />
+        <!--android:layout_marginTop="30dp"-->
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/commented_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        android:text="Submitted by Mahalah W. on 7/03/17" />
+
+</LinearLayout>

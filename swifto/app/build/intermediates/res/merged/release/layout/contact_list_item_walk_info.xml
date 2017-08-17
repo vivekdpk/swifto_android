@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg"
+    android:padding="@dimen/WalkInfo.PaddingLayout" >
+
+    <!-- time -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/WalkInfo.MarginsSidesTexts"
+        android:layout_marginRight="@dimen/WalkInfo.MarginsSidesTexts"
+        android:layout_toLeftOf="@+id/contact_list_item_walk_info_bt_call"
+        android:gravity="left"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <!-- address and phone -->
+
+        <TextView
+            android:id="@+id/contact_list_item_walk_info_txt_address_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Demo gfdg ghfghfg fghfg" />
+    </LinearLayout>
+
+    <!-- call button -->
+
+    
+
+    <!-- button sms -->
+
+    <Button
+        android:id="@+id/contact_list_item_walk_info_bt_sms"
+        android:layout_width="@dimen/WalkInfo.ButtonSize"
+        android:layout_height="@dimen/WalkInfo.ButtonSize"
+        android:layout_margin="@dimen/WalkInfo.MarginButtons"
+        
+        android:layout_toLeftOf="@+id/contact_list_item_walk_info_bt_call"
+        android:background="@drawable/list_item_walk_info_bg_button_sms" />
+    
+    <Button
+        android:id="@+id/contact_list_item_walk_info_bt_call"
+        android:layout_width="@dimen/WalkInfo.ButtonSize"
+        android:layout_height="@dimen/WalkInfo.ButtonSize"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/WalkInfo.MarginButtons"
+        
+        android:background="@drawable/list_item_walk_info_bg_button_phone" />
+
+    <!-- button map -->
+
+</RelativeLayout>

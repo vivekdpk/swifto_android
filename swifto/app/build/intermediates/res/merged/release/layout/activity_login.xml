@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_login_bg"
+    android:id="@id/activity_login_root"
+     >
+
+    <TextView
+        android:id="@id/activity_login_text_username"
+        style="@style/TextView.Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_login_input_username"
+        android:layout_marginTop="@dimen/Login.MarginGroupFromTop"
+        android:text="@string/login_username" />
+
+    <EditText
+        android:id="@id/activity_login_input_username"
+        style="@style/EditText.Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_login_text_username"
+        android:layout_marginLeft="@dimen/Login.EditTextMarginsSide"
+        android:layout_marginRight="@dimen/Login.EditTextMarginsSide"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@id/activity_login_text_password"
+        style="@style/TextView.Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/activity_login_input_username"
+        android:layout_below="@id/activity_login_input_username"
+        android:layout_marginTop="@dimen/Login.MarginUsernamePassword"
+        android:text="@string/login_password" />
+
+    <EditText
+        android:id="@id/activity_login_input_password"
+        style="@style/EditText.Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_login_text_password"
+        android:layout_marginLeft="@dimen/Login.EditTextMarginsSide"
+        android:layout_marginRight="@dimen/Login.EditTextMarginsSide"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/activity_login_text_fgtpass"
+        style="@style/TextView.Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_login_input_password"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot your password?" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/dogview"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/Login.MarginBottomFrameButton"
+        android:layout_marginLeft="@dimen/Login.EditTextMarginsSide"
+        android:layout_marginRight="@dimen/Login.EditTextMarginsSide" >
+
+        <Button
+            android:id="@id/activity_login_button_login"
+            style="@style/Swifto.Button.Text"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/Login.ButtonHeight"
+            android:layout_above="@id/activity_login_img_dog_bottom"
+            android:background="@drawable/activity_login_bt_login"
+            android:gravity="center"
+            android:text="@string/login_bt_login" />
+
+        <ImageView
+            android:id="@id/activity_login_img_dog_top_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/activity_login_button_login"
+            android:layout_alignLeft="@id/activity_login_button_login"
+            android:layout_alignRight="@id/activity_login_button_login"
+            android:scaleType="center"
+            android:src="@drawable/activity_login_dog_top_one" />
+
+        <ImageView
+            android:id="@id/activity_login_img_dog_top_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/activity_login_button_login"
+            android:layout_alignRight="@id/activity_login_button_login"
+            android:layout_alignTop="@id/activity_login_button_login"
+            android:scaleType="center"
+            android:src="@drawable/activity_login_dog_top_two" />
+
+        <ImageView
+            android:id="@id/activity_login_img_dog_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/activity_login_button_login"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignRight="@id/activity_login_button_login"
+            android:scaleType="center"
+            android:src="@drawable/activity_login_dog_bottom" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

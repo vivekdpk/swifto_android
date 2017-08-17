@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\build\\intermediates\\res\\merged\\debug\\color\\button_text.xml",
+        "source": "C:\\Users\\viku\\StudioProjects\\swifto1\\app\\src\\main\\res\\color\\button_text.xml"
+    }
+]
